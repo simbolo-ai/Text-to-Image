@@ -1,4 +1,4 @@
-# Text-To-Image
+# Text-To-Image (Bagan Ai Generated)
 # Results
   All our results are based on fine-tuning https://huggingface.co/runwayml/stable-diffusion-v1-5 model.
 
