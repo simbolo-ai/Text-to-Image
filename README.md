@@ -7,7 +7,7 @@
 ### Ai Generated Bagan Images:
 ![ananda bagan](https://github.com/simbolo-ai/Text-to-Image/assets/106800189/6965b965-73ec-436e-9210-5da550b1fe5b) ![download (2)](https://github.com/simbolo-ai/Text-to-Image/assets/106800189/b1b9af8e-5346-4b52-aa64-2f5839efa9c4)
 
-In order to get those images, we trained over 200 Bagan Images.
+In order to get those images, we trained over 223 General Bagan Images and 137 Ananda Pagodas.
 
 
 
