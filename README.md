@@ -40,6 +40,17 @@ for img in images:
 We used stable diffusion v1.5 model to train with 223 bagan pictures.
 
 ### Contributors:
-Main Contributor: [Ye Bhone Lin](https://github.com/Ye-Bhone-Lin), Supervisor: 
+Main Contributor: [Ye Bhone Lin](https://github.com/Ye-Bhone-Lin), Supervisor: Sa Phyo Thu Htet, Contributors: Thant Htoo San, Min Phone Thit
 
-  
+### Limitation:
+We can't generate a photo of a human.
+
+### References:
+Wikipedia (2022). Stable Diffusion. Retrieved From: https://en.wikipedia.org/wiki/Stable_Diffusion
+
+Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B. (2022). High-Resolution Image Synthesis with Latent Diffusion Models. Retrieved From: https://arxiv.org/abs/2112.10752
+
+Naomi Brown (2022). What is Stable Diffusion and How to Use it. Retrieved From: https://www.fotor.com/blog/what-is-stable-diffusion
+
+Mishra, O. (June, 9). Stable Diffusion Explained. Medium. https://medium.com/@onkarmishra/stable-diffusion-explained-1f101284484d
+
