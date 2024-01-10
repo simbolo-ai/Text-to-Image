@@ -14,11 +14,17 @@ When we prompted the stable diffusion model to generate an image of Bagan, it pr
 
 ### How to use:
 prompt = "fantasy bagan,hypper detailed , peaceful mood ,The central theme could revolve around a fantastical journey through a magical realm, featuring characters with ethereal and surreal qualities, set against a backdrop of vibrant and enchanting landscapes, The color palette would be a harmonious combination of  Jean's bold and surreal hues, by yukisakura  sunset."
+
 negative_prompt = ""
+
 num_samples = 5 
+
 guidance_scale = 9
+
 num_inference_steps = 100 
+
 height = 512
+
 width = 512 
 
 with autocast("cuda"), torch.inference_mode():
