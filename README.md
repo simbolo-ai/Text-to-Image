@@ -40,6 +40,6 @@ for img in images:
 We used stable diffusion v1.5 model to train with 223 bagan pictures.
 
 ### Contributors:
-Main Contributor: Ye Bhone Lin ![https://github.com/Ye-Bhone-Lin], Supervisor: 
+Main Contributor: [Ye Bhone Lin]([https://github.com](https://github.com/Ye-Bhone-Lin)https://github.com/Ye-Bhone-Lin), Supervisor: 
 
   
