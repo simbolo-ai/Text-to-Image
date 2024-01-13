@@ -9,38 +9,22 @@
 
 In order to get those images, we trained over 223 General Bagan Images and 137 Ananda Pagodas.
 
+### Introduction:
+Meet General Bagan, a cutting-edge text-to-image generator trained on a diverse dataset of over 200 images. With a keen understanding of textual inputs, it effortlessly translates words into visually stunning representations. From lifelike nature scenes to captivating abstract compositions.
+
 ### Problem Statement:
 When we prompted the stable diffusion model to generate an image of Bagan, it produced an image depicting a pagoda from Thailand. Hence, our decision was to fine-tune the current stable diffusion model using a multitude of Bagan photos in order to attain a clearer outcome.
 
-### How to use:
-prompt = "fantasy bagan,hypper detailed , peaceful mood ,The central theme could revolve around a fantastical journey through a magical realm, featuring characters with ethereal and surreal qualities, set against a backdrop of vibrant and enchanting landscapes, The color palette would be a harmonious combination of  Jean's bold and surreal hues, by yukisakura  sunset."
-
-negative_prompt = ""
-
-num_samples = 5 
-
-guidance_scale = 9
-
-num_inference_steps = 100 
-
-height = 512
-
-width = 512 
-
-with autocast("cuda"), torch.inference_mode():
-    images = pipe(
-        prompt,
-        height=height,
-        width=width,
-        negative_prompt=negative_prompt,
-        num_images_per_prompt=num_samples,
-        num_inference_steps=num_inference_steps,
-        guidance_scale=guidance_scale,
-        generator=g_cuda
-    ).images
-
-for img in images:
-    display(img)
+### How to create prompt:
+When we create prompt for bagan, we have to consider 6 keywords. Those are Subject, Medium, Style, Art-sharing website, Resolution, and Additional details. 
+Subject -> What you want to see in the picture is the subject. Not writing enough about the subjects is a common error.
+Medium -> The medium is the substance that artists work with. Illustration, oil painting, 3D rendering, and photography are a few examples. The impact of Medium is significant because a single keyword can significantly alter the style.
+Style -> The image's artistic style is referred to as the style. Pop art, impressionist, and surrealist are a few examples.
+Art-sharing website -> Specialty graphic websites like Deviant Art and Artstation compile a large number of images from various genres. One surefire way to direct the image toward these styles is to use them as a prompt.
+Resolution -> Resolution represents how sharp and detailed the image is
+Additional Details -> Sweeteners added to an image are additional details. To give the image a more dystopian and sci-fi feel, we will add those elements.
+The example prompt for general bagan is: bagan, a creepy and eery Halloween setting, with Jack o lanterns on the street and shadow figures lurking about, dynamic lighting, photorealistic fantasy concept art, stunning visuals, creative, cinematic, ultra detailed, trending on art station, spooky vibe.
+That prompt gives you the Halloween theme.
 
 ### Data:
 We used stable diffusion v1.5 model to train with 223 bagan pictures.
