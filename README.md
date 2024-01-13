@@ -42,6 +42,9 @@ Main Contributor: [Ye Bhone Lin](https://github.com/Ye-Bhone-Lin), Supervisor: S
 ### Limitation:
 We can't generate a photo of a human.
 
+### Other Work:
+In our exploration of image generation, we delve into the architectural marvels of Myanmar, featuring iconic landmarks such as Ananda, Shwezigon, Bupaya, Thatbyinnyu, and Mraukoo. Each structure stands as a testament to the rich cultural and historical tapestry of the region, captured through the lens of our innovative text-to-image generator, General Bagan.
+
 ### References:
 Wikipedia (2022). Stable Diffusion. Retrieved From: https://en.wikipedia.org/wiki/Stable_Diffusion
 
