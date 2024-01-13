@@ -17,12 +17,19 @@ When we prompted the stable diffusion model to generate an image of Bagan, it pr
 
 ### How to create prompt:
 When we create prompt for bagan, we have to consider 6 keywords. Those are Subject, Medium, Style, Art-sharing website, Resolution, and Additional details. 
+
 Subject -> What you want to see in the picture is the subject. Not writing enough about the subjects is a common error.
+
 Medium -> The medium is the substance that artists work with. Illustration, oil painting, 3D rendering, and photography are a few examples. The impact of Medium is significant because a single keyword can significantly alter the style.
+
 Style -> The image's artistic style is referred to as the style. Pop art, impressionist, and surrealist are a few examples.
+
 Art-sharing website -> Specialty graphic websites like Deviant Art and Artstation compile a large number of images from various genres. One surefire way to direct the image toward these styles is to use them as a prompt.
+
 Resolution -> Resolution represents how sharp and detailed the image is
+
 Additional Details -> Sweeteners added to an image are additional details. To give the image a more dystopian and sci-fi feel, we will add those elements.
+
 The example prompt for general bagan is: bagan, a creepy and eery Halloween setting, with Jack o lanterns on the street and shadow figures lurking about, dynamic lighting, photorealistic fantasy concept art, stunning visuals, creative, cinematic, ultra detailed, trending on art station, spooky vibe.
 That prompt gives you the Halloween theme.
 
